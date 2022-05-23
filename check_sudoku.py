@@ -1,3 +1,6 @@
+#Write a function done_or_not passing a board (list[list_lines]) as parameter that checks the board based on sudoku rules. 
+#If the board is valid return 'Finished!', otherwise return 'Try again!'
+
 import numpy as np
 
 sudoku = [[1, 2, 3, 4, 5, 6, 7, 8, 9], [2, 3, 4, 5, 6, 7, 8, 9, 1], [3, 4, 5, 6, 7, 8, 9, 1, 2], [4, 5, 6, 7, 8, 9, 1, 2, 3], [5, 6, 7, 8, 9, 1, 2, 3, 4], [6, 7, 8, 9, 1, 2, 3, 4, 5], [7, 8, 9, 1, 2, 3, 4, 5, 6], [8, 9, 1, 2, 3, 4, 5, 6, 7], [9, 1, 2, 3, 4, 5, 6, 7, 8]]
