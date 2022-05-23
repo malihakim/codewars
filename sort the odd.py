@@ -1,3 +1,5 @@
+#Given an array of numbers, sort the odd numbers in ascending order while leaving the even numbers at their original positions.
+
 def sort_array(source_array):
     newList = sorted([n for n in source_array if n%2 != 0])
     odd = 0
